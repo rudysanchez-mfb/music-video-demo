@@ -1,0 +1,73 @@
+{
+  "theme": "metal",
+  "cards": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "kicker": "YOUR PRODUCT  |  LIVE  |  NO MOCKS",
+      "title": [
+        "THREE SURFACES.",
+        "ONE WORKFLOW."
+      ],
+      "size": 220,
+      "sub": "Search  |  Assistant  |  Builder",
+      "foot": "soundtrack: <artist> - <track>"
+    },
+    {
+      "id": "ch1",
+      "num": "01",
+      "kicker": "SEARCH",
+      "title": "Ask in plain words.",
+      "bullets": [
+        "Filters apply themselves and show their work.",
+        "The result count and latency stay on screen.",
+        "Open a result in place, no page reload."
+      ]
+    },
+    {
+      "id": "ch2",
+      "num": "02",
+      "kicker": "ASSISTANT",
+      "title": "Answers grounded in your data.",
+      "bullets": [
+        "Every lookup it runs is shown next to the answer.",
+        "Sources are clickable and stay in view.",
+        "Memory you can read and edit, fact by fact."
+      ]
+    },
+    {
+      "id": "ch3",
+      "num": "03",
+      "kicker": "BUILDER",
+      "title": "Describe it. It renders.",
+      "bullets": [
+        "Plain-language prompts become working UI.",
+        "Output is copy-ready, not a mock.",
+        "Every screen in this video is production."
+      ]
+    },
+    {
+      "id": "wrap",
+      "kicker": "WHAT YOU JUST SAW",
+      "title": "One workflow. Three surfaces. All live.",
+      "bullets": [
+        "Search: deterministic, then a model on top.",
+        "Assistant: grounded answers with visible lookups.",
+        "Builder: prompts in, working UI out."
+      ],
+      "verdict": "Nothing here is a mock."
+    },
+    {
+      "id": "outro",
+      "kind": "title",
+      "kicker": "SIGNED OFF",
+      "title": [
+        "YOUR",
+        "PRODUCT"
+      ],
+      "size": 240,
+      "sub": "Your Name  |  Your Team  |  2026",
+      "foot": "soundtrack: <artist> - <track>  |  your-product.example.com"
+    }
+  ]
+}

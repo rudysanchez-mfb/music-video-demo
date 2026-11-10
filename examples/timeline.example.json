@@ -1,0 +1,72 @@
+{
+  "out": "build/demo.mp4",
+  "card_alpha": 0.42,
+  "segments": [
+    {
+      "type": "card",
+      "card": "intro",
+      "seconds": 9
+    },
+    {
+      "type": "card",
+      "card": "ch1",
+      "seconds": 8
+    },
+    {
+      "type": "body",
+      "take": "takes/search/take.webm",
+      "in": 3.0,
+      "out": 24.0,
+      "captions": [
+        [0.5, 4.5, "SEARCH", "A plain-language query, typed like you would say it."],
+        [4.5, 10, "SEARCH", "The result count and latency stay on screen."],
+        [10, 15, "SEARCH", "Filters apply themselves and come off in one click."],
+        [15, 19.5, "SEARCH", "Open a result in place. No reload."]
+      ]
+    },
+    {
+      "type": "card",
+      "card": "ch2",
+      "seconds": 8
+    },
+    {
+      "type": "body",
+      "take": "takes/assistant/take.webm",
+      "in": 2.5,
+      "out": 22.0,
+      "captions": [
+        [0.5, 5, "ASSISTANT", "Ask a real question about your own data."],
+        [5, 11, "ASSISTANT", "It runs the lookups, shows them, then answers."],
+        [11, 18, "ASSISTANT", "Every fact is grounded and every source is visible."]
+      ]
+    },
+    {
+      "type": "card",
+      "card": "ch3",
+      "seconds": 8
+    },
+    {
+      "type": "body",
+      "take": "takes/builder/take.webm",
+      "in": 3.0,
+      "out": 25.0,
+      "captions": [
+        [0.5, 5, "BUILDER", "Describe the screen you want in plain words."],
+        [5, 12, "BUILDER", "It renders working UI, ready to copy."],
+        [12, 18, "BUILDER", "Hold on the payoff. Let the screen read."]
+      ]
+    },
+    {
+      "type": "card",
+      "card": "wrap",
+      "seconds": 9
+    },
+    {
+      "type": "card",
+      "card": "outro",
+      "seconds": 13
+    }
+  ],
+  "song_video": "<path to your music video>",
+  "theme": "metal"
+}

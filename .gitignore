@@ -1,0 +1,42 @@
+# Build / working output
+build/
+takes/
+cards/
+pipeline/
+record.mjs
+record.log
+marks.json
+analysis.json
+
+# Media (never commit source music, takes, or rendered video)
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.png
+*.jpg
+
+# Auth / state
+state.json
+*.storageState.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
